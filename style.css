@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(https://2.bp.blogspot.com/-OxqZh6NTm8I/VxsK7gHiWqI/AAAAAAAAANY/WesiaiPTGg8YOt4IvPphXDLxW8ZsQwHowCLcB/s1600/background.jpg); background-position: top;  background-repeat:repeat-y;
+	background-color: #000000; 
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+.container {
+	background-image: url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position: center; background-repeat:no-repeat;
+	margin: 0 auto 0px;
+	width: 1003px;
+	text-align:center;
+}
+
+/* header  */
+.header{ width:961;}
+#logo { margin: 0px 450px 0px 0px}
+#mainImage{ border: none;	}
+#menucontainer{ background-image:url(https://3.bp.blogspot.com/-u7N-YT3uLrE/VxsK91NktKI/AAAAAAAAAOA/uqLBxWk0vag610y6FWeZqetr-CXefm2kwCLcB/s1600/menu.jpg); margin-left: auto; margin-right: auto; background-repeat: no-repeat; background-position: center; height:65px;}
+#menu { padding: 25px 0px 0px 50px; color:#ffffff; font-size: 1.2em; }
+#menu li{ display: inline; padding: 0px 50px 0px 0px; }
+
+/* main image  */
+.mainImage2{ border: none; }
+.centermass {}
+
+/* home page  */
+
+#centermass2 {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:00; height:500px}
+
+li { list-style: none;}
+
+#infotextBold { font-weight:bold; }
+#biotext { padding: 10px 15px; text-align: left; padding:20px 25px 20px; }
+#biocontainer {position: relative; float: left; margin-left:23px;}
+#col1 {float:left; padding: 0px 0px; width:280px}
+#inforow { margin-left:9px; margin-top:12px; position: relative; float: left; width: 651px}
+.infotext { padding: 10px 15px; text-align: left; }
+.info { padding: 10px 15px; text-align: left; }
+.col2 {float:left; margin-left:10px; padding: 0px 0px; width:200px}
+
+/* flute history  */
+.flutehistory  {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:600px; height:500px; text-align: left; padding:10px 35px 20px; }
+.pageing{ margin-right:20px; position: relative; float: right; width: 100px}
+#infotext { padding: 10px 15px; text-align: left; }
+#colpage li { display: inline; padding: 0px 5px 0px 5px; }
+#flute { float:left; margin: 0px 10px 0px 0px}
+
+/* gallery */
+.gallery  {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:00; height:900px; text-align: left; }
+#colgallery li{ display: inline;}
+#galleryImage { margin: 5px 15px 5px 15px; }
+#gallery { text-align:center; font-family: Arial, Helvetica, sans-serif; font-size:11px; background-color:#FFF; } 
+
+/* bio */
+.bio  {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:00; height:500px; text-align: left; padding:10px 35px 20px; }
+#elizabeth1 { float:right; margin: 0px 10px 0px 20px; border-style: solid; border-width: 1px}
+#elizabeth3 { float:left; margin: 15px 20px 10px 0px}
+#booklist { float:left; padding: 0px 25px 0px 0px; margin:0}
+#students{ text-align:center; margin: 0px 10px 0px 20px}
+
+/* flutestudio */
+.flutestudio  {
+	background-color:#FFFFFF;
+	height:1812px; 
+}
+.flutestudio1  {
+	text-align: left; 
+	padding:10px 35px 0px; 
+}
+.students { margin: 50px 10px 0px 20px; text-align:left; font-size: 11px;}
+#studentsPicture { padding: 0px 0px 10px 10px}
+
+.wrapper{
+	margin: 0 auto 0px;
+    width: 961px;
+	text-align:center
+}
