@@ -35,7 +35,7 @@ body {
 
 #centermass2 {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:00; height:500px}
 #centermass3 {background-image:url(https://1.bp.blogspot.com/-PKFmvw_g1Ro/VxsK59hyz6I/AAAAAAAAANE/SAMU3DHUOcQ10gjOYMXVjUFLGIZZef24QCLcB/s1600/Main_image_2.jpg); background-position:center; background-repeat:no-repeat; margin-top:00; height:30px}
-#bodycontainer {position: relative; margin-left:46px; margin-right:46px;}
+#bodycontainer {position: relative; margin-left:46px; margin-right:46px; padding:20px 25px 20px 25px; }
 
 li { list-style: none;}
 
