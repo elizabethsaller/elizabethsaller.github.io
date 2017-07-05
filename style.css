@@ -21,6 +21,11 @@ body {
 
 /* header  */
 .header{ width:961;}
+.autoResize {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* IE8 */
+}
 #logo { margin: 0px 450px 0px 0px}
 #mainImage{ border: none;	}
 #menucontainer{ background-image:url(https://3.bp.blogspot.com/-u7N-YT3uLrE/VxsK91NktKI/AAAAAAAAAOA/uqLBxWk0vag610y6FWeZqetr-CXefm2kwCLcB/s1600/menu.jpg); margin-left: auto; margin-right: auto; background-repeat: no-repeat; background-position: center; height:65px;}
