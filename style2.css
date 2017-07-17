@@ -165,3 +165,11 @@
 /* contact page */
 	#contactForm { /* ### */
 		text-align: center;}
+
+/* philosophy page */
+	#photoRight {
+		float: right;
+		margin-left: 2%;
+		border-style: solid;
+		border-width: 1px;
+		max-width: 30%;}
