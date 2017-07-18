@@ -1,54 +1,171 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-<head>
-	<base href="https://elizabethsaller.github.io/">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Atlanta Georgia Flute Teacher Elizabeth Saller</title>
-	<link href="style2.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-	<div id='greyOverlay'>
-		<a href='/'><img id='logo' class='autoResize' alt='Elizabeth Saller' src='https://2.bp.blogspot.com/-j0l0PuAow6w/VxsK9-Tj33I/AAAAAAAAAN8/_hsO8ehu6WoFFHbPh6lrpiWleJvD9dOhQCLcB/s1600/logo.png'></a>
-		<div id='roundedRect'>
-			<div id='menu'>
-		<a href='index.html'>HOME</a> &nbsp; 
-		<a href='bio.html'> BIO</a> &nbsp; 
-		<a href='flutestudio.html'>FLUTE STUDIO</a> &nbsp; 
-		<a href='gallery.html'>GALLERY</a> &nbsp; 
-		<a href='contact.html'>CONTACT</a>
-	</div>
-			<div id='rectContent'>
-				<img id='mainImage' class='autoResize' alt='Elizabeth playing flute' src='https://1.bp.blogspot.com/-TY26IVBugJ8/WV7UsShjiyI/AAAAAAAAASw/DcFDMQjH36U-8P9JgjvqbngN7wQpLO-pgCLcBGAs/s1600/banner.jpg'>
-				<div id='pageContent' class='clearfix'>
-		<!--   ###    -->
+@charset "utf-8";
+/* CSS Document */
 
-					<div class='sectionTitle'>Elizabeth’s Biography</div>
-					<div>
-					<img id='photoLeft' class='autoResize' alt='Head Shot' src="https://4.bp.blogspot.com/-H-15qDXiRZU/VxsK9PYL4DI/AAAAAAAAANs/VBuDDrm773UlAYcSYdSuVeWeyu92ER99QCLcB/s1600/elizabeth3.jpg"> 
-					<p>
-					Elizabeth Saller is an immensely passionate teacher and performer located in the Atlanta area. She performed with the Waynesboro Symphony Orchestra in Virginia where she received her Master of Music in flute performance from James Madison University. She also completed a Bachelor of Music degree from the University of Florida in flute performance while actively subbing with the Central Florida Symphony Orchestra. 
-					</p>
-					<p>
-					Accustomed to performing in the flute community, Elizabeth has performed at the annual National Flute Association Convention, Florida Flute Convention, and Mid-Atlantic Flute Fair. Additionally, Elizabeth has won the opportunity to perform in masterclasses for many world-renowned artists including Alexa Still (New York Flute Club Masterclass Competition), Marianne Gedigian (Florida Flute Association Masterclass Competition), Jonathan Snowden, Keith Underwood, Christina Jennings, and Trevor Wye. 
-					</p>
-					<p>
-					Outside of the flute community, she has performed as an ensemble member at the World Association of Symphonic Band Ensembles Convention, American Bandmasters Association Convention and at the Mid-Atlantic Flute Fair as a conductor. 
-					</p>
-					<p>
-					Elizabeth enjoys performing with a wide variety of ensembles. She is always looking to expand how the flute is used and accepted in music. Elizabeth has performed in ensembles ranging from Opera and Ballet Orchestras, Symphonies, Wind Ensembles, and Chamber Ensembles to Jazz, New World Music, and Brazilian Music groups. She is also enthusiastic about seeking the opportunity to perform newly composed and unknown works. 
-					</p>
-					<p>
-					An enthusiastic and magnetic musician, Elizabeth has performed as a soloist and chamber musician for countless weddings, conferences, various religious and non-religious ceremonies and services, and private parties. As an avid community contributor, she has performed at events including evenings at museums, retirement homes, and performances to promote environmental awareness. 
-					</p>
-					<p>
-					Currently, Elizabeth teaches flute and piano at Music &amp; Arts and private homes. Look for her recordings on Devon Williams first album and The Science of Mind book on tape. 
-					</p>
-					</div>
+	body {
+		background-image: url('https://1.bp.blogspot.com/-2E8fg4i4yp4/WV7UshDOdcI/AAAAAAAAASs/AA5gwDCW6_4KwzYPwZwrfg6IOdlkjHLGQCLcBGAs/s1600/background.jpg');
+		background-position: top;
+		background-repeat: repeat;
+		background-color: #124; 
+		margin: 0px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: .8em;}
 
-		<!--   ###    -->
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+	#greyOverlay {
+		background-position: center;
+		background: rgba(0, 0, 0, 0.25);
+		height: auto;
+		margin: 0 5% 0;
+		padding: 0 10px 20px;}
+
+	#logo {
+		max-width: 100%;}
+		
+	.autoResize {
+		height: auto;
+		width: auto\9; /* IE8 */ }
+
+	#roundedRect {
+		background: white;
+		border: 1px solid #000;
+		border-radius: 10px;
+		background-position: center;}
+
+	#menu {
+		background: lightsteelblue;
+		border-radius: 10px 10px 0px 0px;
+		padding: 10px 10%;
+		font-size: 1.2em;
+		display: -webkit-flex; /* Safari */
+		-webkit-justify-content: space-around; /* Safari 6.1+ */
+		text-align: center;}
+
+	.menuItem {
+		text-decoration: none;}
+		
+	#rectContent {
+		margin: auto;
+		padding: 2%;
+		max-width: 924px;  /* width of banner image */ }
+
+	#mainImage {
+		display: block;
+		margin: auto;
+		border-radius: 10px 10px 0px 0px;
+		max-width: 100%;}
+
+	#pageContent {
+		background-position: center;
+		margin: 2% auto 2%;}
+
+	.clearfix::after { /* Hack to assure that no floating blocks extend below the bottom edge of the roundedRect. */
+		content: "";
+		clear: both;
+		display: table;}
+
+	.sectionTitle {
+		clear: both;
+		font-size: 150%;
+		font-weight: bold;}
+
+/* index page */
+	#sectLeft { /* left main section */
+		display: inline-block;
+		float: left;
+		max-width: 30%;}
+	.horzSpacer {
+		display: inline-block;
+		max-width: 0.776%}
+	#sectRight { /* right main section */
+		display: inline-block;
+		float: right;
+		max-width: 68%;}
+	.sectTop {
+		background-color: #248;
+		color: white;
+		border-radius: 5px 5px 0px 0px;
+		padding: 10px;
+		font-size: 150%;}
+	.sectBot {
+		background-color: #248;
+		color: white;
+		border-radius: 0px 0px 5px 5px;
+		padding: 15px;}
+		
+	.cols {
+		vertical-align: top;
+		margin-top: 10px;
+		max-width: 100%;
+		text-align: left;
+	}
+	.colLeft {
+		display: inline-block;
+		float: left;
+		max-width: 32%;}
+	.colMid {
+		padding: 0 2% 0;
+		display: inline-block;
+		max-width: 32%;}
+	.colRight {
+		display: inline-block;
+		float: right;
+		max-width: 32%;}
+	.colPict {
+		align: right;
+		max-width: 100%;}
+	.colText {
+		padding: 5px 0px 5px;}
+	.colHead {
+		font-weight: bold;}
+	.colBot {
+		background-color: #248;
+		color: white;
+		border-radius: 0px 0px 5px 5px;
+		padding: 5px 5px 5px 10px;
+		text-decoration: none;}
+	.colBot:hover {
+		background-color: #48F;
+		text-decoration: none;}
+
+@media only screen and (max-width: 500px) {
+	#sectLeft { /* left main column */
+		clear: both;
+		margin-bottom: 10px;
+		max-width: 100%;}
+	#sectRight {
+		clear: both;
+		max-width: 100%;}
+}
+
+
+	.photoLeft {
+		float: left;
+		margin-right: 2%;
+		border-style: solid;
+		border-width: 1px;
+		max-width: 30%;}
+
+	.photoRight {
+		float: right;
+		margin-left: 2%;
+		border-style: solid;
+		border-width: 1px;
+		max-width: 30%;}
+		
+/* flute studio page */
+	.students {
+		clear: both;
+		margin-top: 10px;}
+	.student {
+		display: inline-block;
+		margin-top: 10px;
+		vertical-align: top;}
+	.studentPict {
+		display: inline-block;
+		margin-right: 10px;
+		float: left;
+		max-width: 30%;}
+	.studentDesc {}
+
+/* contact page */
+	#contactForm { /* ### */
+		text-align: center;}
