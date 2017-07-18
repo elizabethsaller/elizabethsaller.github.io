@@ -39,6 +39,9 @@
 		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		text-align: center;}
 
+	.menuItem {
+		text-decoration: none;}
+		
 	#rectContent {
 		margin: auto;
 		padding: 2%;
@@ -120,7 +123,8 @@
 		padding: 5px 5px 5px 10px;
 		text-decoration: none;}
 	.colBot:hover {
-		background-color: #48F;}
+		background-color: #48F;
+		text-decoration: none;}
 
 @media only screen and (max-width: 500px) {
 	#sectLeft { /* left main column */
@@ -133,21 +137,21 @@
 }
 
 
-/* bio page */
-	#photoLeft {
+	.photoLeft {
 		float: left;
 		margin-right: 2%;
 		border-style: solid;
 		border-width: 1px;
 		max-width: 30%;}
 
-/* flute studio page */
-	#photoRight {
+	.photoRight {
 		float: right;
 		margin-left: 2%;
 		border-style: solid;
 		border-width: 1px;
-		max-width: 45%;}
+		max-width: 30%;}
+		
+/* flute studio page */
 	.students {
 		clear: both;
 		margin-top: 10px;}
@@ -165,11 +169,3 @@
 /* contact page */
 	#contactForm { /* ### */
 		text-align: center;}
-
-/* philosophy page */
-	#photoRight {
-		float: right;
-		margin-left: 2%;
-		border-style: solid;
-		border-width: 1px;
-		max-width: 30%;}
