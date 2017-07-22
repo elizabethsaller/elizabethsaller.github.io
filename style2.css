@@ -35,8 +35,9 @@
 		border-radius: 10px 10px 0px 0px;
 		padding: 10px 10%;
 		font-size: 1.2em;
-		display: -webkit-flex; /* Safari */
-		-webkit-justify-content: space-around; /* Safari 6.1+ */
+/*		display: -webkit-flex; /* Safari */
+/*		-webkit-justify-content: space-around; /* Safari 6.1+ */
+		justify-content: space-around;
 		text-align: center;}
 
 	.menuItem {
@@ -67,7 +68,36 @@
 		font-size: 150%;
 		font-weight: bold;}
 
-/* index page */
+	.photoLeft {
+		float: left;
+		margin-right: 2%;
+		border-style: solid;
+		border-width: 1px;
+		max-width: 30%;}
+
+	.photoRight {
+		float: right;
+		margin-left: 2%;
+		border-style: solid;
+		border-width: 1px;
+		max-width: 30%;}
+
+@media only screen and (max-width: 500px) {
+	.menuItem {
+		display: block;
+		width: 100%;}
+	#sectLeft { /* left main column */
+		clear: both;
+		margin-bottom: 10px;
+		max-width: 100%;}
+	#sectRight {
+		clear: both;
+		max-width: 100%;}
+    .responsive {
+        width: 100%;}
+}
+
+/* Home page */
 	#sectLeft { /* left main section */
 		display: inline-block;
 		float: left;
@@ -125,33 +155,8 @@
 	.colBot:hover {
 		background-color: #48F;
 		text-decoration: none;}
-
-@media only screen and (max-width: 500px) {
-	#sectLeft { /* left main column */
-		clear: both;
-		margin-bottom: 10px;
-		max-width: 100%;}
-	#sectRight {
-		clear: both;
-		max-width: 100%;}
-}
-
-
-	.photoLeft {
-		float: left;
-		margin-right: 2%;
-		border-style: solid;
-		border-width: 1px;
-		max-width: 30%;}
-
-	.photoRight {
-		float: right;
-		margin-left: 2%;
-		border-style: solid;
-		border-width: 1px;
-		max-width: 30%;}
 		
-/* flute studio page */
+/* Flute Studio page */
 	.students {
 		clear: both;
 		margin-top: 10px;}
@@ -166,6 +171,46 @@
 		max-width: 30%;}
 	.studentDesc {}
 
-/* contact page */
+/* Gallery page */
+.galleryItem {
+	margin: 2%;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.galleryItem img {
+    width: 100%;
+    height: auto;}
+.caption {
+    padding: 15px;
+    text-align: center;}
+
+* {
+    box-sizing: border-box;}
+
+.responsive {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;}
+}
+
+/* flute history page */
+	.pages {
+		text-align: center;}
+	.seqMenuItem {
+		background-color: #248;
+		color: White;
+		border-radius: 15px;
+		padding: 10px;
+		font-size: 100%;
+		text-decoration: none;
+		display:inline-block;}
+	.seqMenuItem:hover {
+			background-color: #48F;
+			text-decoration: none;}
+
+/* Contact page */
 	#contactForm { /* ### */
 		text-align: center;}
