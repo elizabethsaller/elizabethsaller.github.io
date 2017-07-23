@@ -150,17 +150,15 @@
 		margin-top: 10px;}
 	.student {
 		display: inline-block;
-		vertical-align: middle;
-		margin-top: 10px;
-		vertical-align: top;}
+		width: 100%;
+		margin-top: 10px;}
 	.studentPict {
-		display: inline-block;
-		vertical-align: middle;
-		margin-right: 10px;
 		float: left;
-		max-width: 30%;}
+		width: 30%;
+		margin-right: 10px;
+		border: 1px solid #000;}
 	.studentDesc {
-		vertical-align: middle;
+		width: 100%;
 		text-align: justify;}
 
 /* Gallery page */
