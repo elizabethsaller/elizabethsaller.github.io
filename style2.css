@@ -150,16 +150,24 @@
 		margin-top: 10px;}
 	.student {
 		display: inline-block;
+		vertical-align: middle;
 		margin-top: 10px;
 		vertical-align: top;}
 	.studentPict {
 		display: inline-block;
+		vertical-align: middle;
 		margin-right: 10px;
 		float: left;
 		max-width: 30%;}
-	.studentDesc {}
+	.studentDesc {
+		vertical-align: middle;
+		text-align: justify;}
 
 /* Gallery page */
+.responsive {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;}
 .galleryItem {
 	margin: 2%;
     border: 1px solid #ccc;
@@ -170,11 +178,12 @@
 .caption {
     padding: 15px;
     text-align: center;}
-.responsive {
-    padding: 0 6px;
-    float: right;
-    width: 24.99999%;}
     
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;}
+}
 @media only screen and (max-width: 500px) {
 	.menuItem {
 		display: block;
@@ -188,11 +197,6 @@
 		max-width: 100%;}
     .responsive {
         width: 100%;}
-}
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;}
 }
 
 /* flute history page */
